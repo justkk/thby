@@ -1,8 +1,77 @@
-<html>
-  <head>
-    <title>Thoth Bytes</title>
-  </head>
-  <body>
-    Hello World!
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body>
+
+        <header class="page-header header container-fluid">
+            <div class="overlay"></div>
+            <div>
+                
+            </div>
+            <div class="description">
+                <img src="img/MainLogo1.png" class="img-fluid"/>
+                <h1>THOTH BYTES</h1>
+                <p>A Multi Agent System buit for Enterprise Data ... <span class = "blinking-cursor"> | </span> </p> 
+            </div>
+            
+        </header>
+        
+        <div class="container features">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h3 class="feature-title">What We Do</h3>
+                    <p>At Thoth Bytes, our mission is to unlock the full potential of enterprise data for large language models (LLMs). We leverage the intricate structure and relationships within enterprise data to develop sophisticated reasoning systems. Our suite of tools offers an intuitive, ready-to-use interface that enables complex task planning and execution. </p>
+                    <p>
+
+With Thoth Bytes, Users gain access to specialized agents, each expertly designed for specific data sources. These agents collaborate to execute subtasks, equipped with all the necessary context derived from the enterprise environment. Experience seamless integration and enhanced operational capabilities with Thoth Bytes. </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="img/agent_system.png" class="img-fluid">
+                </div>
+            </div> 
+        </div>
+        
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                    <p>info@thothbytes.com</p>
+                    
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    
+                    <p>
+                    THOTH BYTES 2024
+                    </p>
+                </div>
+            </div>
+
+        </footer>
+        
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+        
+    <script type="text/javascript">
+        var ready = (callback) => {
+    if (document.readyState != "loading") callback();
+    else document.addEventListener("DOMContentLoaded", callback);
+}
+
+ready(() => { 
+    document.querySelector(".header").style.height = window.innerHeight + "px";
+})
+    </script>
+    </body>
+
 </html>
